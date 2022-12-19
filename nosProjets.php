@@ -20,7 +20,7 @@
   <?php include('./navBar.php') ?>
   <div id="ourprojects">
     <h1>NOS PROJETS</h1>
-    <div className="row">
+    <div class="row justify-content-center">
       <?php include('./Components/items.php') ?>
     </div>
   </div>
