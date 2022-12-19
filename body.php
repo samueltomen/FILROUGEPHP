@@ -1,8 +1,8 @@
     <div class="bodyHome">
-      <?php include ("./Components/Main/home.php")?>
-      <?php include ("./Components/Main/TakeAction.php")?>
-      <?php include ("./Components/Main/projets.php")?>
-      <?php include ("./Components/Main/leSaviezVous.php")?>
-      <?php include ("./Components/Main/nosHistoires.php")?>
-      <?php include ("./Components/Main/newsletters.php")?>
+      <?php include ("./Components/home.php")?>
+      <?php include ("./Components/takeAction.php")?>
+      <?php include ("./Components/projets.php")?>
+      <?php include ("./Components/leSaviezVous.php")?>
+      <?php include ("./Components/nosHistoires.php")?>
+      <?php include ("./Components/newsletters.php")?>
     </div>

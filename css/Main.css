@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Bahnschrift";
-  src: url("../../assets/fonts/BAHNSCHRIFT.TTF");
+  src: url("../fonts/BAHNSCHRIFT.TTF");
 }
 
 /* -------------------- General ---------------------- */
@@ -65,9 +65,8 @@ a:-webkit-any-link {
 /* ----------------------- Début du main container --------------- */
 
 .main_container {
-  /* height: 80vh; */
   row-gap: 10vh;
-  background-image: url("../../assets/homePage.png");
+  background-image: url("../images/homePage.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
