@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-  <title>Title</title>
+  <title>Harpie || Nos Projets</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./css/Main.css">
   <link rel="stylesheet" href="./css/NosProjets.css" />
 
   <!-- Bootstrap CSS v5.2.1 -->

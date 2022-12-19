@@ -1,6 +1,3 @@
-<?php
-?>
-
 <!doctype html>
 <html lang="fr">
 
@@ -9,19 +6,19 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="./assets/logo_harpie.png"/>
+  <link rel="icon" href="./assets/logo_harpie.png" />
 
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/Main.css"/>
+  <link rel="stylesheet" href="./css/Main.css" />
   <script defer src="./Animation.js"></script>
 
 </head>
 
 <body>
-    <?php include('./navBar.php') ?>
-    <?php include('./body.php') ?>
-    <?php include('./footer.php') ?>
+  <?php include('./navBar.php') ?>
+  <?php include('./body.php') ?>
+  <?php include('./footer.php') ?>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>

@@ -2,7 +2,7 @@
 ?>
     <nav class="navbar navbar-expand-md navbar-light bg-custom">
                   <div class="container">
-                  <Link to="/"><a id="1" class="navbar-brand" href="index.php" onclick="activeLink()" aria-current="page"><img src='../../assets/logo_harpie.png' alt="logo harpie" width="55px"/></a></Link>
+                  <Link to="/"><a id="1" class="navbar-brand" href="index.php" onclick="activeLink()" aria-current="page"><img src='./images/logo_harpie.png' alt="logo harpie" width="55px"/></a></Link>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

@@ -1,3 +1,5 @@
+<?php
+?>
 <div class="col-md-4 d-flex justify-content-center">
     <div class="card mb-4">
         <img class="card-img-top" src={`http://localhost:3000/img/${article.image}`} />

@@ -1,10 +1,15 @@
-@import url('../Main/Main.css');
+@import url('./Main.css');
+
+*{
+    font-family: 'Bahnschrift';
+}
 
 h1{
     text-align: center;
     margin: 1em;
     text-decoration: underline;
     font-weight: bold;
+    /* letter-spacing: -1px; */
     color: #51ade5;
 }
 
@@ -45,4 +50,11 @@ h1{
 .slogan_footer h1{
     text-align: left;
     margin: 0;
+}
+
+footer a{
+    color: #4b4949;
+}
+footer a:hover{
+    color: #51ade5;
 }
