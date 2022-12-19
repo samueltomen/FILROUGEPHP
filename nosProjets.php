@@ -6,23 +6,24 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="./Components/Main/NosProjets.css"/>
+  <link rel="stylesheet" href="./css/NosProjets.css" />
 
   <!-- Bootstrap CSS v5.2.1 -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <script defer src="./Animation.js"></script>
 </head>
 
 <body>
 
-  <?php include('./Components/Main/navBar.php') ?>
+  <?php include('./navBar.php') ?>
   <div id="ourprojects">
     <h1>NOS PROJETS</h1>
     <div className="row">
-      <?php include('./Components/Main/items.php') ?>
+      <?php include('./Components/items.php') ?>
     </div>
   </div>
-  <?php include('./Components/Main/footer.php') ?>
+  <?php include('./footer.php') ?>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
