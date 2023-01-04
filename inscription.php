@@ -67,7 +67,6 @@ if (!empty($_POST)) {
 
     if ($valid) {
 
-      //$crypt_password = crypt($password, '$6$rounds=5000$}~u0+0%1{N2CFrGsB+_U2(rrCW)PTW/[PY7Dp-K0{@(SoKAef;~~`g%>NuB 0ly($');
       $crypt_password = password_hash($password, PASSWORD_ARGON2ID);
 
       if (password_verify($password, $crypt_password)) {
