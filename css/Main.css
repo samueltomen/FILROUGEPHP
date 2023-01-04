@@ -35,6 +35,18 @@ a:-webkit-any-link {
   color: #51ade5;
 }
 
+/* ------------------ Bouton scroll top -------------- */
+
+#btn-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 /* ------------------ Début du header ----------------- */
 
 

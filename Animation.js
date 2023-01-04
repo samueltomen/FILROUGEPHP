@@ -79,4 +79,6 @@ function effectLoadScreen(){
 //   })
 // }
 
+//////////////////////////////// Boutton retour en haut de la page ///////////////////////
+
 

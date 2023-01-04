@@ -70,18 +70,24 @@ if (!empty($_POST)) {
 <body>
     <?php include('./navBar.php') ?>
     <main>
-        <form method="post">
-            <label for="username">Nom d'utilisateur :</label>
-            <input type="text" name="username" id="username" value="<?php if (isset($username)) echo $username; ?>">
-            <span class="error"><?php if (isset($err_username)) echo $err_username; ?></span>
-            <br>
-            <label for="password">Mot de passe :</label>
-            <input type="password" name="password" id="password">
-            <span class="error"><?php if (isset($err_password)) echo $err_password; ?></span>
-            <br>
-            <!-- Bouton de connexion -->
-            <input type="submit" value="Connexion">
-        </form>
+        <div class="d-flex mx-auto py-5 justify-content-around flex-wrap">
+            <div class="w-50">
+                <h1 class="p-2 text-center" >Merci ! Grace a toi plus de personnes vivront mieux leur quotidien</h1>
+            </div>
+            <form method="post" class="d-flex flex-column justify-content-center p-2 flex-wrap">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" name="username" id="username" value="<?php if (isset($username)) echo $username; ?>">
+                <span class="error"><?php if (isset($err_username)) echo $err_username; ?></span>
+                <br>
+                <label for="password">Mot de passe :</label>
+                <input type="password" name="password" id="password">
+                <span class="error"><?php if (isset($err_password)) echo $err_password; ?></span>
+                <br>
+                <!-- Bouton de connexion -->
+                <input type="submit" value="Connexion">
+            </form>
+        </div>
+
     </main>
     <?php include('./footer.php') ?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
