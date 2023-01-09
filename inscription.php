@@ -113,39 +113,23 @@ if (!empty($_POST)) {
   <?php include('./navBar.php') ?>
   <main>
     <h1 class="text-center text-decoration-underline mt-5">REJOINDRE HARPIE</h1>
-    <form method="post" class="mx-auto d-flex flex-column col-md-3 my-5">
+    <form method="post" class="mx-auto d-flex flex-column col-md-3 my-5" id="formInscription">
       <label for="username">Nom d'utilisateur:</label><br>
-      <input type="text" id="username" name="username" value="<?php if (isset($username)) {
-                                                                echo $username;
-                                                              } ?>" required><br>
+      <input type="text" id="username" name="username" required><br>
       <label for="password">Mot de passe:</label><br>
-      <input type="password" id="password" name="password" <?php if (isset($password)) {
-                                                              echo $password;
-                                                            } ?> required><br>
+      <input type="password" id="password" name="password" required><br>
       <label for="nom">Nom:</label><br>
-      <input type="text" id="nom" name="nom" <?php if (isset($nom)) {
-                                                echo $nom;
-                                              } ?> required><br>
+      <input type="text" id="nom" name="nom" required><br>
       <label for="prenom">Prénom:</label><br>
-      <input type="text" id="prenom" name="prenom" <?php if (isset($prenom)) {
-                                                      echo $prenom;
-                                                    } ?> required><br>
+      <input type="text" id="prenom" name="prenom" required><br>
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" <?php if (isset($email)) {
-                                                    echo $email;
-                                                  } ?> required><br>
+      <input type="email" id="email" name="email" required><br>
       <label for="telephone">Téléphone:</label><br>
-      <input type="tel" id="telephone" name="telephone" <?php if (isset($telephone)) {
-                                                          echo $telephone;
-                                                        } ?> required><br>
+      <input type="tel" id="telephone" name="telephone" required><br>
       <label for="adresse">Adresse:</label><br>
-      <textarea id="adresse" name="adresse" <?php if (isset($adresse)) {
-                                              echo $adresse;
-                                            } ?> required></textarea><br>
+      <textarea id="adresse" name="adresse" required></textarea><br>
       <label for="motivation">Motivation:</label><br>
-      <textarea id="motivation" name="motivation" <?php if (isset($motivation)) {
-                                                    echo $motivation;
-                                                  } ?> required></textarea><br>
+      <textarea id="motivation" name="motivation" required></textarea><br>
       <input type="submit" value="Soumettre" class="mx-auto p-2" name="inscription">
     </form>
   </main>

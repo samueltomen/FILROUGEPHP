@@ -86,7 +86,7 @@ if (!empty($_POST)) {
                 <!-- Bouton de connexion -->
                 <input class="btn btn-secondary" type="submit" value="Connexion">
                 <br>
-                <button class="btn btn-secondary">Pas encore inscrit ?</button>
+                <a class="btn btn-secondary" href="inscription.php#formInscription">Pas encore inscrit ?</a>
             </form>
         </div>
 
