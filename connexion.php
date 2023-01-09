@@ -84,7 +84,9 @@ if (!empty($_POST)) {
                 <span class="error"><?php if (isset($err_password)) echo $err_password; ?></span>
                 <br>
                 <!-- Bouton de connexion -->
-                <input type="submit" value="Connexion">
+                <input class="btn btn-secondary" type="submit" value="Connexion">
+                <br>
+                <button class="btn btn-secondary">Pas encore inscrit ?</button>
             </form>
         </div>
 
