@@ -45,6 +45,7 @@ a:-webkit-any-link {
   border: none;
   outline: none;
   cursor: pointer;
+  z-index: 88;
 }
 
 /* ------------------ Début du header ----------------- */

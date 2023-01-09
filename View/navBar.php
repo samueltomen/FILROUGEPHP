@@ -1,17 +1,18 @@
 <?php
-echo '<button id="btn-top">Retour en haut</button>';
+echo '<button id="btn-top">^</button>';
 echo '<style>';
 echo '#btn-top {';
 echo '    position: fixed;';
-echo '    bottom: 20px;';
+echo '    bottom:1px;';
 echo '    right: 20px;';
-echo '    background-color: #51ade5;';
-echo '    color: #fff;';
+// echo '    background-color: #51a36d;';
+echo '    color: #363636;';
 echo '    font-family: "Bahnschrift";';
+echo '    font-size: 100px;';
 echo '    border: none;';
 echo '    outline: none;';
 echo '    cursor: pointer;';
-echo '    padding: 10px;';
+echo '    padding: 0px;';
 echo '    margin-right: 10px;';
 echo '}';
 echo '</style>';
