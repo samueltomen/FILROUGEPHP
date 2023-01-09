@@ -16,7 +16,7 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col-lg-6 ">
-            <img src='./images/carousel1.png' class="d-block w-100" alt="..." />
+            <img src='../Static/images/carousel1.png' class="d-block w-100" alt="..." />
             </div>
             <div class="col-lg-6 ">
               <div class=" d-flex flex-column justify-content-center my-5 px-3">
@@ -36,7 +36,7 @@
         <div class="carousel-item">
           <div class="row">
             <div class="col-lg-6 ">
-            <img src='./images/carousel2.png' class="d-block w-100" alt="..." />
+            <img src='../Static/images/carousel2.png' class="d-block w-100" alt="..." />
             </div>
             <div class="col-lg-6 ">
               <div class=" d-flex flex-column justify-content-center my-5 px-3">
@@ -56,7 +56,7 @@
         <div class="carousel-item">
           <div class="row">
             <div class="col-lg-6 ">
-            <img src='./images/carousel1.png' class="d-block w-100" alt="..." />
+            <img src='../Static/images/carousel1.png' class="d-block w-100" alt="..." />
             </div>
             <div class="col-lg-6 ">
               <div class=" d-flex flex-column justify-content-center my-5 px-3">

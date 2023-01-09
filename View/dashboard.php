@@ -18,7 +18,7 @@
 
 <body>
     <main>
-        <?php include('navBar.php') ?>
+        <?php include('./navBar.php') ?>
         <h1 class="text-center my-5">Bienvenue sur votre Dashboard 🖐</h1>
         <br>
         <div class="informations d-flex justify-content-evenly">

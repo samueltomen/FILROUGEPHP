@@ -7,7 +7,7 @@
     nations while helping to slow climate change.
   </h3>
   <div class="card">
-    <img class="card-img-top" src=./images/image_card_1r.png alt="lycéen africain" />
+    <img class="card-img-top" src=../Static/images/image_card_1r.png alt="lycéen africain" />
     <div class="card-body">
       <h4 class="card-title">Lorem ipsum dolor sit.</h4>
       <p class="card-text">
@@ -20,7 +20,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="./images/image_card_2r.png" alt="ecolier africain" />
+    <img class="card-img-top" src="../Static/images/image_card_2r.png" alt="ecolier africain" />
     <div class="card-body">
       <h4 class="card-title">Lorem ipsum dolor sit.</h4>
       <p class="card-text">
@@ -33,7 +33,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="./images/image_card_3r.png" alt="Card image" />
+    <img class="card-img-top" src="../Static/images/image_card_3r.png" alt="Card image" />
     <div class="card-body">
       <h4 class="card-title">Lorem ipsum dolor sit.</h4>
       <p class="card-text">
